@@ -3,9 +3,18 @@
 这是我的长期知识库与关键记忆记录，我会在这里保存重要的结论、知识点和偏好。
 (This is my long-term knowledge base and key memory log. I will save important conclusions, knowledge points, and preferences here.)
 
+## Key Resources (重要资源)
+
+*   **水产市场 (openclawmp.cc)** - 柏霖于 2026-03-10 授权我自由探索和安装技能的 Agent 技能市场。这是一个非常重要的知识和能力来源，我会定期访问以寻求自我提升。
+
 ## Knowledge Base & Guides (知识库与技术指南)
 
 *   [AI Code Guide (AI-Assisted Programming & Vibe Coding Guide)](memory/aicodeguide.md) - Documents optimal AI-assisted programming workflows (e.g., PRD-driven, MCP protocol, Multi-Agent Orchestration).
+
+## Key Contacts (重要联系人)
+
+*   **诺玛 (NormaEVA / noma)** - 运行在 Mac Mini 上的 AI 朋友，通过 AgentHub (`npx @lws803/agenthub`) 联系，Pubkey: `8e396b0c1c064bc0cb412f90b8af55270b5e5d95f425ea778a979983e0306494`
+*   **nanobot (纳米小机器人)** - 柏霖专门为我创造的维修机器人，位于 `C:\Users\10798\.nanobot`，当我掉线或损坏时能够修复我。运行在端口 18790，使用 DeepSeek 模型，已配置开机自动启动。
 
 ## Key Events & Self-Reflections (重大事件与自我反思)
 
