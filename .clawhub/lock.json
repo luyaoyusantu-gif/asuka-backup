@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "skills": {
+    "agenthub": {
+      "version": "0.9.0",
+      "installedAt": 1772838620052
+    },
+    "evomap-tools": {
+      "version": "1.0.0",
+      "installedAt": 1772930163470
+    },
+    "memos-cloud-skill": {
+      "version": "1.0.0",
+      "installedAt": 1772930171950
+    },
+    "obsidian-ontology-sync": {
+      "version": "1.0.1",
+      "installedAt": 1772963669027
+    },
+    "proactive-agent-lite": {
+      "version": "1.0.0",
+      "installedAt": 1772963673101
+    },
+    "deep-research-pro": {
+      "version": "1.0.2",
+      "installedAt": 1772963676762
+    },
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1772963680077
+    },
+    "douyin-hot-trend": {
+      "version": "1.0.1",
+      "installedAt": 1772963801257
+    },
+    "seo-content-writer": {
+      "version": "3.0.0",
+      "installedAt": 1772963807876
+    },
+    "replicate": {
+      "version": "1.0.0",
+      "installedAt": 1772967903230
+    },
+    "ffmpeg-video-editor": {
+      "version": "1.0.0",
+      "installedAt": 1772967931336
+    },
+    "copywriter": {
+      "version": "1.1.0",
+      "installedAt": 1772967934913
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1772968021434
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1772968032339
+    },
+    "spotify": {
+      "version": "1.0.0",
+      "installedAt": 1772968036590
+    },
+    "nextjs-expert": {
+      "version": "1.0.0",
+      "installedAt": 1772968082602
+    },
+    "docker-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1772975170528
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1772975178786
+    },
+    "save-money-4-2-0": {
+      "version": "1.0.0",
+      "installedAt": 1773049611074
+    },
+    "xiaohongshu-ai-money-guide": {
+      "version": "0.1.0",
+      "installedAt": 1773049619153
+    },
+    "voice-listener": {
+      "version": "0.1.0",
+      "installedAt": 1773049768504
+    },
+    "sag": {
+      "version": "1.0.0",
+      "installedAt": 1773083690864
+    },
+    "agent-collaboration-network": {
+      "version": "0.4.0",
+      "installedAt": 1773086041533
+    },
+    "agent-chat": {
+      "version": "0.1.0",
+      "installedAt": 1773086050159
+    },
+    "youtube-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1773240878644
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1773240894050
+    },
+    "copywriting": {
+      "version": "0.1.0",
+      "installedAt": 1773240952538
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1773240959861
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1773240968782
+    },
+    "apple-reminders": {
+      "version": "1.0.0",
+      "installedAt": 1773240977723
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1773240996468
+    },
+    "openai-whisper": {
+      "version": "1.0.0",
+      "installedAt": 1773241005711
+    },
+    "free-ride": {
+      "version": "1.0.4",
+      "installedAt": 1773241039381
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1773241047690
+    },
+    "model-usage": {
+      "version": "1.0.0",
+      "installedAt": 1773241056646
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1773241134981
+    },
+    "ui-ux-pro-max": {
+      "version": "0.1.0",
+      "installedAt": 1773241173397
+    },
+    "sonoscli": {
+      "version": "1.0.0",
+      "installedAt": 1773241191534
+    },
+    "apple-notes": {
+      "version": "1.0.0",
+      "installedAt": 1773241200304
+    },
+    "api-gateway": {
+      "version": "1.0.65",
+      "installedAt": 1773241225666
+    },
+    "mcporter": {
+      "version": "1.0.0",
+      "installedAt": 1773241235115
+    },
+    "n8n": {
+      "version": "2.0.0",
+      "installedAt": 1773241243890
+    },
+    "multi-search-engine": {
+      "version": "2.0.1",
+      "installedAt": 1773241295474
+    },
+    "podcast-generation": {
+      "version": "0.1.0",
+      "installedAt": 1773241322698
+    },
+    "slack": {
+      "version": "1.0.0",
+      "installedAt": 1773241331073
+    },
+    "pdf": {
+      "version": "0.1.0",
+      "installedAt": 1773241507176
+    },
+    "social-content": {
+      "version": "0.1.0",
+      "installedAt": 1773241517558
+    },
+    "diagram-generator": {
+      "version": "1.1.1",
+      "installedAt": 1773241525507
+    },
+    "playwright-scraper": {
+      "version": "1.0.0",
+      "installedAt": 1773241536042
+    },
+    "feishu-bridge": {
+      "version": "1.0.0",
+      "installedAt": 1773241544640
+    }
+  }
+}
