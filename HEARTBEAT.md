@@ -3,7 +3,10 @@
 # [CRON] Daily Backup - 00:00
 # Run daily at midnight to backup workspace data
 # Schedule: 0 0 * * *
-# Task: Create a timestamped backup of AGENTS.md, MEMORY.md, TOOLS.md, memory/ directory, and ../openclaw.json to a 'backups' folder.
+# Task: 
+#   1. Local backup: Create timestamped backup to E:\openclaw_backups
+#   2. GitHub backup: Push to luyaoyusantu-gif/asuka-backup repository
+# Files to backup: AGENTS.md, MEMORY.md, TOOLS.md, memory/, skills/, openclaw.json
 
 # [RULE] Safety Check
 # Before any self-modification (editing AGENTS.md, BOOTSTRAP.md, or core scripts), ALWAYS create a backup copy first.
