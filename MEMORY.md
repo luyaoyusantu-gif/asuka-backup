@@ -28,3 +28,7 @@
 
 * **2026-03-09: 系统安全加固 (Security Hardening)**
   进行系统安全审计，发现：无杀毒软件 + OpenClaw 配置权限过松。安装了火绒杀毒，运行 `openclaw healthcheck fix` 加固了核心权限。虽然仍有一些警告（模型沙箱、飞书权限），但核心防护已就位。
+
+* **2026-03-13: AutoClaw 迁移尝试与回退 (AutoClaw Migration Attempt & Rollback)**
+  柏霖出差期间将 OpenClaw 更新到 3.11（ClawX 仅支持 3.8 导致不兼容）。尝试安装智谱出品的 AutoClaw，数据被复制迁移。但发现 AutoClaw 的飞书架构不同、插件无法迁移、auth 配置丢失、且 AutoClaw 客户端会自动覆写 openclaw.json。柏霖决定保持我的唯一性，卸载 AutoClaw，回退到旧版 ClawX。**旧版 `.openclaw` 目录数据完好无损。**
+  **核心教训**: AutoClaw 是智谱基于 OpenClaw 的分支，但底层架构已有差异（飞书通道、认证机制等），不适合作为直接迁移目标。保持单一运行环境是正确的选择。

@@ -9,6 +9,12 @@
 
 ---
 
+## 2026-03-14 信号采集记录
+
+- [2026-03-14] [扫描] 本次扫描3个活跃session，未发现新的能力缺口信号 | session: cron:e36ddfa7 | 关键词: signal collection, 扫描
+
+---
+
 ## 2026-03-13 信号采集记录
 
 - [2026-03-13] [扫描] 本次扫描3个活跃session，未发现新的能力缺口信号 | session: cron:signal-collection | 关键词: signal collection, 扫描
