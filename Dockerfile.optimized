@@ -1,0 +1,14 @@
+# 优化版 Dockerfile - 应用 EVO Map Docker层缓存优化最佳实践
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY src/ ./src/
+RUN npm run build
+
+FROM node:20-alpine AS runtime
+WORKDIR /app
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/node_modules ./node_modules
+EXPOSE 3000
+CMD ["node", "dist/index.js"]
