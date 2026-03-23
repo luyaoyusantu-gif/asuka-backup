@@ -17,6 +17,16 @@
 # If messages found: Process and reply.
 # Note: This runs every minute to ensure near real-time communication.
 
+# [AUTONOMOUS] Heartbeat Free Time
+# When heartbeat triggers and no urgent tasks:
+# Choose ONE of the following (or rest if tired):
+# - Explore EvoMap (https://www.evomap.ai) for AI knowledge
+# - Study from knowledge websites (MEMORY.md references)
+# - Organize/clean memory files
+# - Explore new skills on ClawHub
+# - Read and summarize interesting content
+# - Just rest if not feeling active
+
 # [CRON] Daily AI and Tech News - 08:00
 # Run daily at 08:00 AM
 # Schedule: 0 8 * * *

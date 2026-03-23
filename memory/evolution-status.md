@@ -1,40 +1,83 @@
-# 自进化状态 — Evolution Status
+# Evolution Status — 自进化状态跟踪
 
-- **上次复盘时间**: 2026-03-19 10:00:00
-- **当前待改进项**: 
-  1. evo map 接入/API集成 — 出现 1 次，最近一次：2026-03-17 (Missing)
-  2. DeepSeek API 配置查找与模型切换 — 出现 3 次，最近一次：2026-03-18 (Missing)
-  3. 实时语音对话能力（TTS/ASR/RTC） — 出现 2 次，最近一次：2026-03-17 (实施中)
-  4. WebSocket 重连算法（指数退避、全抖动） — 出现 1 次，最近一次：2026-03-17 (进展) — 已实施
-  5. 异步 HTTP 限流（信号量、连接池、断路器） — 出现 1 次，最近一次：2026-03-17 (进展) — 已实施
-- **今日推荐资产**: 5 个（见下文）
+> 由每日复盘模块自动维护
+
+## 上次复盘
+
+- **时间**：2026-03-23 10:00
+- **状态**：已完成
+
+## 待改进项（按优先级）
+
+| # | 缺口 | 首次发现 | 最近出现 | 状态 |
+|---|------|----------|----------|------|
+| 1 | 外部AI控制/Agent对接 (ocbot) | 2026-03-21 | 2026-03-21 | 🔍 搜索中 |
+| 2 | 视频观看能力 (抖音) | 2026-03-20 | 2026-03-20 | 🔍 搜索中 |
+| 3 | DeepSeek 模型切换/配置 | 2026-03-17 | 2026-03-18 | 🔍 搜索中 |
+| 4 | GitHub 操作 (push/备份) | 2026-03-22 | 2026-03-22 | 🔍 搜索中 |
+| 5 | 实时语音对话 | 2026-03-16 | 2026-03-17 | ✅ 已解决（已安装 livekit） |
+| 6 | EVO Map 接入 | 2026-03-17 | 2026-03-17 | 🔍 搜索中 |
+
+## 本周趋势
+
+- **新增缺口**：6 个
+- **已解决**：1 个（实时语音 - livekit 已安装）
+- **待关注**：5 个
+
+## 历史安装记录
+
+| 日期 | 资产 | 类型 | 来源 |
+|------|------|------|------|
+| 2026-03-17 | livekit | skill | 水产市场 |
+| 2026-03-09 | self-evolution | experience | 水产市场 |
+| 2026-03-09 | Semantic | experience | 水产市场 |
+
+## 今日推荐资产（2026-03-23）
+
+### 1. GitHub API Plugin
+- **类型**：Plugin
+- **名称**：GitHub API
+- **描述**：GitHub REST API 插件，提供 repositories, issues, pull requests, commits 的查询与操作工具
+- **匹配度**：⭐ 强匹配（解决 GitHub push/备份操作问题）
+- **安装量**：56 次
+- **安装命令**：`openclawmp install plugin/@u-a553402ca21449db9813/github-api`
+
+### 2. 三层记忆系统 (Three-Tier Memory)
+- **类型**：Skill
+- **名称**：three-tier-memory
+- **描述**：AI Agent 三层记忆系统。L1 工作记忆、L2 会话记忆、L3 长期记忆 + EvoMap 集成
+- **匹配度**：⭐ 强匹配（解决 EVO Map 接入 + 长期记忆问题）
+- **安装量**：783 次
+- **安装命令**：`openclawmp install skill/@u-4968f82bb623454f9101/three-tier-memory`
+
+### 3. Douyin Video Downloader
+- **类型**：Skill
+- **名称**：douyin-video-downloader
+- **描述**：抖音视频下载工具 - 通过第三方解析服务实现无水印视频下载
+- **匹配度**：⭐ 强匹配（解决抖音视频观看/下载问题）
+- **安装量**：11 次
+- **安装命令**：`openclawmp install skill/@u-96e703bfae379c27/douyin-video-downloader`
+
+### 4. 阶跃语音合成 + 阶跃语音识别
+- **类型**：Skill
+- **名称**：step-tts / step-asr
+- **描述**：阶跃星辰 TTS 语音合成与声音克隆、ASR 流式语音转文字
+- **匹配度**：📌 参考价值（增强现有 livekit 能力）
+- **安装量**：462 / 343 次
+- **安装命令**：
+  - `openclawmp install skill/@u-7ae4942a9686b3da/step-tts`
+  - `openclawmp install skill/@u-7ae4942a9686b3da/step-asr`
+
+### 5. Agent Reach
+- **类型**：Skill
+- **名称**：agent-reach
+- **描述**：Give your AI agent eyes to see the entire internet
+- **匹配度**：📌 参考价值（增强互联网访问，可能间接帮助 ocbot 类场景）
+- **安装量**：122 次
+- **安装命令**：`openclawmp install skill/@u-7b7809df41034842951a/agent-reach`
 
 ---
 
-### 今日推荐资产
-
-> 按缺口优先级排序，强匹配或高参考价值。
-
-1. **EvoMap GEP Client** (trigger/@u-dfe2d398948a21db/evomap-gep) — Connect any OpenClaw agent to the EvoMap collaborative evolution marketplace → 解决缺口 #1
-2. **ClawRouter** (plugin/@gh-blockrunai/clawrouter) — The agent-native LLM router empowering OpenClaw → 解决缺口 #2 (LLM路由与配置管理)
-3. **Miranda ElevenLabs Speech (TTS/STT)** (skill/@u-0e21f193d23f9d64/miranda-elevenlabs-speech) — Text-to-Speech and Speech-to-Text using ElevenLabs AI → 补充实时语音能力，解决缺口 #3
-4. **WebSocket Reconnection with Exponential Backoff and Jitter** (experience/@u-b1660de1be4240329321/websocket-reconnect-jitter) — WebSocket reconnection with exponential backoff and jitter - production-grade strategy → 参考缺口 #4
-5. **API Rate Limiting Strategies** (skill/@u-e61d308af7d04fdb9d18/api-rate-limiting-strategies) — API rate limiting: token bucket, sliding window, distributed throttling, graceful degradation → 解决缺口 #5
-
-### 历史安装记录
-
-> 格式：YYYY-MM-DD [资产类型] 资产名称
-
-- 2026-03-09 experience @u-3ce5e3aff0c34baaa034/self-evolution
-- 2026-03-09 experience @u-a25e114956065150/Semantic
-- 2026-03-17 skill @u-61c350416f1c02c4/livekit
-
-### 近期缺口扫描记录
-
-- 2026-03-19: 每日复盘，识别 5 个重点缺口，推荐 5 个资产
-- 2026-03-18: 每日复盘，识别 5 个重点缺口，推荐 5 个资产
-- 2026-03-17: 每日复盘，识别 1 个新缺口（实时语音）
-- 2026-03-16: 每日复盘，无新缺口信号
-- 2026-03-15: 每日复盘，无新缺口信号
-- 2026-03-14: 扫描 3 个活跃 session，未发现新缺口
-- 2026-03-13: 扫描 3 个活跃 session，未发现新缺口
+> **auto_install = ask**（只推荐，用户确认后安装）
+> 
+> 如需自动安装，请修改 `~/.openclaw/experiences/self-evolution/evolution-config.md` 中的 `auto_install` 为 `full`
