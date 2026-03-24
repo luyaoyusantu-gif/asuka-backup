@@ -4,16 +4,16 @@
 
 ## 上次复盘
 
-- **时间**：2026-03-23 10:00
+- **时间**：2026-03-24 10:00
 - **状态**：已完成
 
 ## 待改进项（按优先级）
 
 | # | 缺口 | 首次发现 | 最近出现 | 状态 |
 |---|------|----------|----------|------|
-| 1 | 外部AI控制/Agent对接 (ocbot) | 2026-03-21 | 2026-03-21 | 🔍 搜索中 |
-| 2 | 视频观看能力 (抖音) | 2026-03-20 | 2026-03-20 | 🔍 搜索中 |
-| 3 | DeepSeek 模型切换/配置 | 2026-03-17 | 2026-03-18 | 🔍 搜索中 |
+| 1 | DeepSeek 模型切换/配置查找 | 2026-03-17 | 2026-03-22 | 🔍 搜索中 |
+| 2 | 外部AI控制/Agent对接 (ocbot) | 2026-03-21 | 2026-03-21 | 🔍 搜索中 |
+| 3 | 视频观看能力 (抖音) | 2026-03-20 | 2026-03-20 | 🔍 搜索中 |
 | 4 | GitHub 操作 (push/备份) | 2026-03-22 | 2026-03-22 | 🔍 搜索中 |
 | 5 | 实时语音对话 | 2026-03-16 | 2026-03-17 | ✅ 已解决（已安装 livekit） |
 | 6 | EVO Map 接入 | 2026-03-17 | 2026-03-17 | 🔍 搜索中 |
@@ -32,49 +32,47 @@
 | 2026-03-09 | self-evolution | experience | 水产市场 |
 | 2026-03-09 | Semantic | experience | 水产市场 |
 
-## 今日推荐资产（2026-03-23）
+## 今日推荐资产（2026-03-24）
 
-### 1. GitHub API Plugin
-- **类型**：Plugin
-- **名称**：GitHub API
-- **描述**：GitHub REST API 插件，提供 repositories, issues, pull requests, commits 的查询与操作工具
-- **匹配度**：⭐ 强匹配（解决 GitHub push/备份操作问题）
-- **安装量**：56 次
-- **安装命令**：`openclawmp install plugin/@u-a553402ca21449db9813/github-api`
-
-### 2. 三层记忆系统 (Three-Tier Memory)
+### 1. Video Download
 - **类型**：Skill
-- **名称**：three-tier-memory
-- **描述**：AI Agent 三层记忆系统。L1 工作记忆、L2 会话记忆、L3 长期记忆 + EvoMap 集成
-- **匹配度**：⭐ 强匹配（解决 EVO Map 接入 + 长期记忆问题）
-- **安装量**：783 次
-- **安装命令**：`openclawmp install skill/@u-4968f82bb623454f9101/three-tier-memory`
+- **名称**：video-download
+- **描述**：Download videos from 1800+ websites and generate subtitles using Faster Whisper
+- **匹配度**：⭐ 强匹配（解决视频观看/下载问题）
+- **安装量**：10 次
+- **安装命令**：`openclawmp install skill/@u-993ae0bf4d068904/video-download`
 
-### 3. Douyin Video Downloader
+### 2. Douyin Video Downloader
 - **类型**：Skill
 - **名称**：douyin-video-downloader
 - **描述**：抖音视频下载工具 - 通过第三方解析服务实现无水印视频下载
-- **匹配度**：⭐ 强匹配（解决抖音视频观看/下载问题）
+- **匹配度**：⭐ 强匹配（解决抖音视频观看问题）
 - **安装量**：11 次
 - **安装命令**：`openclawmp install skill/@u-96e703bfae379c27/douyin-video-downloader`
 
-### 4. 阶跃语音合成 + 阶跃语音识别
+### 3. LiveKit Voice AI
 - **类型**：Skill
-- **名称**：step-tts / step-asr
-- **描述**：阶跃星辰 TTS 语音合成与声音克隆、ASR 流式语音转文字
-- **匹配度**：📌 参考价值（增强现有 livekit 能力）
-- **安装量**：462 / 343 次
-- **安装命令**：
-  - `openclawmp install skill/@u-7ae4942a9686b3da/step-tts`
-  - `openclawmp install skill/@u-7ae4942a9686b3da/step-asr`
+- **名称**：livekit
+- **描述**：Build voice AI agents with LiveKit. Use when developing realtime voice applications
+- **匹配度**：✅ 已安装（实时语音能力已解决）
+- **安装量**：7 次
+- **状态**：已安装于 2026-03-17
 
-### 5. Agent Reach
+### 4. ClawRouter (DeepSeek 路由)
+- **类型**：Plugin
+- **名称**：clawrouter
+- **描述**：The agent-native LLM router empowering OpenClaw — 支持 DeepSeek 等多模型路由
+- **匹配度**：📌 参考价值（可能帮助模型切换配置）
+- **安装量**：53 次
+- **安装命令**：`openclawmp install plugin/@gh-blockrunai/clawrouter`
+
+### 5. LLM Router Gateway
 - **类型**：Skill
-- **名称**：agent-reach
-- **描述**：Give your AI agent eyes to see the entire internet
-- **匹配度**：📌 参考价值（增强互联网访问，可能间接帮助 ocbot 类场景）
-- **安装量**：122 次
-- **安装命令**：`openclawmp install skill/@u-7b7809df41034842951a/agent-reach`
+- **名称**：aisa-llm-router-skill
+- **描述**：Unified LLM Gateway - One API for 70+ AI models. Route to GPT, Claude, Gemini, Qwen, Deepseek
+- **匹配度**：📌 参考价值（统一模型网关，可能帮助模型切换问题）
+- **安装量**：2 次
+- **安装命令**：`openclawmp install skill/@u-763bb22d91255889/aisa-llm-router-skill`
 
 ---
 
