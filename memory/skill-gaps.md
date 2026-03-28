@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-03-28 信号采集记录
+
+- [2026-03-28] [扫描] 本次扫描3个活跃session（main, daily-review, 当前cron），未发现新的能力缺口信号。对话内容主要是飞书通道修复验证（重复插件问题已解决）、定时会话清理、每日复盘任务，均正常完成 | session: cron:e36ddfa7-8178-4c88-9ff7-65cd83939278 | 关键词: signal collection, 扫描
+
+---
+
+## 2026-03-27 信号采集记录
+
+- [2026-03-27] [扫描] 本次扫描2个活跃session（main, daily-review），未发现新的能力缺口信号。对话内容主要是定时会话清理、每日备份、每日复盘任务，均正常完成 | session: cron:e36ddfa7-8178-4c88-9ff7-65cd83939278 | 关键词: signal collection, 扫描
+
+---
+
 ## 2026-03-26 信号采集记录
 
 - [2026-03-26] [扫描] 本次扫描3个活跃session（main, daily-review, 当前cron），未发现新的能力缺口信号。对话内容主要是定时会话清理、每日备份、每日复盘任务，均正常完成 | session: cron:e36ddfa7-8178-4c88-9ff7-65cd83939278 | 关键词: signal collection, 扫描
@@ -68,9 +80,3 @@
 
 - [2026-03-16] [扫描] 本次扫描2个活跃session，识别到1条新信号 | session: cron:e36ddfa7 | 关键词: signal collection, 扫描
 - [2026-03-16] [Suggestion] 用户提到豆包愿意提供实时语音大模型，希望我能实现语音实时对话能力 | session: agent:main:main | 关键词: 实时语音, voice chat, TTS, ASR, RTC
-
----
-
-## 2026-03-14 信号采集记录
-
-- [2026-03-14] [扫描] 本次扫描3个活跃session，未发现新的能力缺口信号 | session: cron:e36ddfa7 | 关键词: signal collection, 扫描
