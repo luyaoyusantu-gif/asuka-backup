@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-03-29 信号采集记录
+
+- [2026-03-29] [扫描] 本次扫描3个活跃session（main, daily-review, 当前cron），发现1条环境问题（npm全局安装权限错误，已排除）。主要对话内容：ClawX托管的OpenClaw升级机制验证、每日复盘推送。未发现新的能力缺口 | session: cron:e36ddfa7-8178-4c88-9ff7-65cd83939278 | 关键词: signal collection, 扫描, npm 权限
+
+---
+
 ## 2026-03-28 信号采集记录
 
 - [2026-03-28] [扫描] 本次扫描3个活跃session（main, daily-review, 当前cron），未发现新的能力缺口信号。对话内容主要是飞书通道修复验证（重复插件问题已解决）、定时会话清理、每日复盘任务，均正常完成 | session: cron:e36ddfa7-8178-4c88-9ff7-65cd83939278 | 关键词: signal collection, 扫描
