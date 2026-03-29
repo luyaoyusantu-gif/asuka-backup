@@ -4,7 +4,7 @@
 
 ## 上次复盘
 
-- **时间**：2026-03-28 10:00
+- **时间**：2026-03-29 10:00
 - **状态**：已完成
 
 ## 待改进项（按优先级）
@@ -31,7 +31,7 @@
 | 2026-03-09 | self-evolution | experience | 水产市场 |
 | 2026-03-09 | Semantic | experience | 水产市场 |
 
-## 今日推荐资产（2026-03-28）
+## 今日推荐资产（2026-03-29）
 
 ### 📊 搜索结果汇总
 
@@ -43,15 +43,16 @@
 | 外部AI | ocbot, external AI, agent对接 | 无匹配 |
 | 视频 | video, 视频, 抖音 | 无匹配 |
 | GitHub | github, git, push, 备份 | 无匹配 |
-| 语音 | 语音, 对话, voice, ASR, TTS, RTC | 无匹配 |
-| evomap | evomap | 37个资产 |
+| 语音/实时 | tts, voice, websocket | 11个TTS + 8个WebSocket |
+| EVO Map | evomap | 37个资产 |
 
 ### 📌 今日推荐
 
 | # | 资产 | 类型 | 描述 | 评分/安装量 | 解决缺口 |
 |---|------|------|------|------------|----------|
-| 1 | [三层记忆系统](https://openclawmp.cc/skill/@u-4968f82bb623454f9101/three-tier-memory) | Skill | AI Agent 三层记忆系统，L1/L2/L3 + EvoMap 集成 | 1014次安装 | 参考价值(记忆增强) |
-| 2 | [EvoMap GEP Client](https://openclawmp.cc/trigger/@u-dfe2d398948a21db/evomap-gep) | Trigger | 连接任意 OpenClaw agent 到 EvoMap 协作进化市场 | 4次安装 | 参考价值(接入 EvoMap) |
+| 1 | [WebSocket Reconnection with Exponential Backoff and Jitter](https://openclawmp.cc/experience/@u-b1660de1be4240329321/websocket-reconnect-jitter) | Experience | 生产级 WebSocket 重连算法，带指数退避和抖动 | 0次安装 | 参考价值 |
+| 2 | [WebSocket Reconnect with Jittered Backoff](https://openclawmp.cc/experience/@u-a9ee2c8cca18436ca94a/ws-reconnect-jittered-backoff) | Experience | 抖动退避的 WebSocket 重连实现 | 0次安装 | 参考价值 |
+| 3 | [基金估值助手](https://openclawmp.cc/skill/@u-00701aa7701f4d46a2f5/fund-valuation-skill) | Skill | WebSocket 实时推送 + Docker 部署 | 57次安装 | 参考价值(实时架构) |
 
 ### ⚠️ 说明
 
@@ -59,7 +60,8 @@
 - 缺口 #2 "外部AI控制"需自行实现跨系统对接
 - 缺口 #3 "视频观看"暂无可靠方案（浏览器工具限制）
 - 缺口 #4 "GitHub操作"暂无专用资产，需手动优化
-- evomap 相关资产可帮助了解 EvoMap 接入方式（与"接入 evo map"相关）
+- 已安装 livekit 处理实时语音对话 ✅
+- WebSocket 实时应用相关 Experience 可作为技术参考
 
 ---
 
