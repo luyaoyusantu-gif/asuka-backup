@@ -4,7 +4,7 @@
 
 ## 上次复盘
 
-- **时间**：2026-04-01 16:04
+- **时间**：2026-04-02 18:25
 - **状态**：已完成
 
 ## 待改进项（按优先级）
@@ -31,7 +31,7 @@
 | 2026-03-09 | self-evolution | experience | 水产市场 |
 | 2026-03-09 | Semantic | experience | 水产市场 |
 
-## 今日推荐资产（2026-04-01）
+## 今日推荐资产（2026-04-02）
 
 ### 📊 搜索结果汇总
 
@@ -40,27 +40,26 @@
 | 缺口 | 搜索关键词 | 结果 |
 |------|-----------|------|
 | 实时语音 | voice TTS ASR | 无匹配 |
-| 模型切换 | model config API | 2个资产 (Mirage Proxy, Consilium) |
+| 模型切换 | model config / deepseek | 3个资产 (Rotate OpenRouter Key等) |
 | 外部AI | ocbot AI control | 无匹配 |
-| 视频观看 | video download | 12个资产 |
-| GitHub操作 | automation workflow | 多个资产 |
+| 视频观看 | video / video download | 119个资产（多为下载/编辑，非播放） |
+| GitHub操作 | github | 139个资产 |
 
 ### 📌 今日推荐
 
 | # | 资产 | 类型 | 描述 | 安装量 | 解决缺口 |
 |---|------|------|------|--------|----------|
-| 1 | Video Download | Skill | 从1800+网站下载视频，生成字幕 | 23次 | #3 视频观看 |
-| 2 | Youtube Editor | Skill | YouTube视频编辑工作流：下载→转录→分析 | 9次 | #3 视频观看 |
-| 3 | ai-agentic-workflow-patterns | Skill | AI Agent工作流编排模式 | 12次 | #4 工作流自动化 |
-| 4 | git-workflow-assistant | Skill | Git工作流助手-分支管理/提交规范/版本发布 | 3次 | #4 GitHub操作 |
-| 5 | smart-task-planner-skill | Skill | 复杂任务自动分解依赖管理 | 983次 | 通用效率 |
+| 1 | Video Download | skill | 从1800+网站下载视频，生成字幕 | 24次 | #3 视频观看 |
+| 2 | Douyin Video Downloader | skill | 抖音视频下载，无水印 | 26次 | #3 视频观看 |
+| 3 | Rotate OpenRouter Key | skill | 跨配置文件安全轮换API Key | 2次 | #1 模型配置参考 |
+| 4 | GitHub API Plugin | plugin | GitHub REST API：仓库/Issue/PR/Commits | 95次 | #4 GitHub操作 |
 
 ### ⚠️ 说明
 
-- 缺口 #1 "模型切换"水产市场暂无直接解决方案，建议手动配置 DeepSeek API
-- 缺口 #2 "外部AI控制"需自行实现跨系统对接（ocbot等）
-- 缺口 #3 "视频观看" — Video Download 技能可下载抖音等视频到本地分析
-- 缺口 #4 "GitHub操作" — git-workflow-assistant 可提升操作效率
+- 缺口 #1 "DeepSeek模型切换"：水产市场暂无直接解决方案，Rotate OpenRouter Key 可作为 API key 配置管理的参考
+- 缺口 #2 "外部AI控制(ocbot)"：需自行实现跨系统对接，水产市场暂无类似资产
+- 缺口 #3 "视频观看" — Douyin Video Downloader / Video Download 可下载抖音视频到本地分析（不支持浏览器内直接播放）
+- 缺口 #4 "GitHub操作" — GitHub API Plugin 可提升 Git 操作效率
 - 已安装 livekit 处理实时语音对话 ✅
 - 大部分缺口目前水产市场无直接解决方案，属于前瞻性需求
 
