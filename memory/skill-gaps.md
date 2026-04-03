@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-04-03 信号采集记录
+
+- [2026-04-03] [扫描] 本次扫描3个活跃session(main, daily-review, 当前cron)，识别到1条新信号。main session中发现openclaw.json配置文件修改后反复回滚的效率问题 | session: cron:e36ddfa7-8178-4c88-9ff7-65cd83939278 | 关键词: signal collection, 扫描, 配置文件
+
+---
+
 ## 2026-04-02 信号采集记录
 
 - [2026-04-02] [扫描] 本次扫描2个活跃session（main, daily-review），均为系统自进化cron任务，未发现新的能力缺口信号。对话内容：每日备份任务执行（3次）、定时会话清理（2次）、每日复盘任务（水产市场搜索）。所有任务正常完成 | session: cron:e36ddfa7-8178-4c88-9ff7-65cd83939278 | 关键词: signal collection, 扫描, backup, 清理
